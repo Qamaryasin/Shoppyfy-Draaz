@@ -1,0 +1,96 @@
+.cart_main {
+  width: 100%;
+  min-height: 100vh;
+  max-height: fit-content;
+  background-color: #b0b0b0;
+
+}
+.img_div img {
+  width: 120px;
+  height: 120px;
+}
+
+.item_sec {
+  padding: 10px;
+  border: 1px solid;
+  background: #fff;
+}
+
+.countBtns button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 40px;
+  border: 1px solid;
+}
+.countBtns button:hover {
+  color: #fff;
+  background-color: #1e1e1e;
+}
+.incCountbtn {
+  border-radius: 100px 0 0 100px;
+}
+.decCountbtn {
+  border-radius: 0px 100px 100px 0px;
+}
+.countBtns span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 40px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #1e1e1e;
+}
+.cencelcon_sec {
+  padding: 0 5px;
+  cursor: pointer;
+}
+.cart_empty_text {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order_summary_sec {
+  height: fit-content;
+  border-radius: 5px;
+  border: 1px solid;
+}
+.order_summary_sec h3,
+.order_summary_sec h4,
+.order_summary_sec h5,
+.order_summary_sec h6,
+.order_summary_sec button {
+  text-transform: uppercase;
+}
+.order_summary_sec p,
+.order_summary_sec h1,
+.order_summary_sec h2,
+.order_summary_sec h3,
+.order_summary_sec h4,
+.order_summary_sec h5,
+.order_summary_sec h6 {
+  padding: 20px;
+}
+.order_summary_sec p {
+  font-size: 16px;
+  font-weight: 800;
+}
+.order_summary_sec button {
+  margin: 20px;
+  width: 100%;
+}
+@media (max-width:992px){
+  .order_summary_sec p,
+  .order_summary_sec h1,
+  .order_summary_sec h2,
+  .order_summary_sec h3,
+  .order_summary_sec h4,
+  .order_summary_sec h5,
+  .order_summary_sec h6 {
+    padding: 10px 40px;
+  }
+}

@@ -1,0 +1,79 @@
+.card_body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a,
+div,
+.btn {
+  font-family: "roboto", sans-serif;
+}
+
+.contect_container {
+  /* margin: 50px 20px;
+  padding: 20px; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sub_cards_sec {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+.cards_skeleton_main {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card_skeleton,
+.card {
+  width: 235px;
+}
+.card:hover {
+  margin-top: -3px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card_img_container {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product_img {
+  padding: 5px;
+  height: 155px;
+  width: 140px;
+}
+
+/* @media (max-width: 992px){
+  .card{
+    width: 200px;
+    height: 300px;
+  }
+  .product_img {
+    padding: 2px;
+    height: 125px;
+    width: 120px;
+  }
+}
+@media (max-width: 455px){
+  .card{
+    width: 280px;
+  }
+} */

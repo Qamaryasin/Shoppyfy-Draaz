@@ -1,0 +1,41 @@
+p, label,button{
+    font-family: "poppins", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.input_sec{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form_control{
+font-size: 14px;
+font-weight: normal;
+font-family: "poppins", sans-serif;
+height: 42px;
+padding: 0 5px ;
+border-bottom: 1px solid rgb(150, 148, 148);
+}
+.form_control::placeholder{
+    font-family: "poppins", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+.form_control:focus{
+    border: none;
+}
+.logs_buttons{
+display: flex;
+flex-direction: column;
+gap: 5px;
+}
+.ForgetPassword{
+    font-size: 14px;
+    
+}
+.logs_buttons p{
+    padding: 10px 0;
+    font-size: 14px;
+}

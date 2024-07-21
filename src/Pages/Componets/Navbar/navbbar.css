@@ -1,0 +1,48 @@
+
+
+.nav-link{
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    color:#000
+}
+.nav-link:hover{
+    color:#a09e9e;
+}
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-brand span{
+    
+    color: rgb(50, 17, 71);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.navbar-brand img{
+    height:42px;
+    width:42px;
+}
+.cart_sec{
+    padding: 10px;
+   margin: 0 5px 0 5px; 
+   display: flex;
+}
+.link,.cart_sec{
+    text-decoration: none;color: black;
+}
+.cartCounts{
+    padding:5px;
+    height: 20px;
+    margin: 2px;
+    min-width:20px;
+    max-width:fit-content;
+    background-color: #000;
+    color: #fff;
+    margin-top: -10px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 12px;
+}
